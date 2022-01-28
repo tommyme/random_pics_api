@@ -12,3 +12,7 @@ selected = random.choice(pic_list)
 # 这里就是把文件名进行一个格式化字符串的处理，可以改成cdn，也可以改成自己的服务器
 pic_url = f"http://{selected}"
 ```
+
+### gen.py
+
+> 就是生成pic_list的pickle文件，每次push之前运行一下就行
